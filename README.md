@@ -1,4 +1,4 @@
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto es una **aplicación de escritorio para la gestión de empleados**, desarrollada en Python utilizando las bibliotecas **CustomTkinter**, **Tkinter**, y **SQLite3** como base de datos local. Permite realizar operaciones básicas de **ABM (Alta, Baja y Modificación)** sobre un registro de empleados.
 
@@ -6,7 +6,7 @@ Este proyecto es una **aplicación de escritorio para la gestión de empleados**
 
 ---
 
-## 🧰 Funcionalidades Principales
+## Funcionalidades Principales
 
 - **Agregar (Alta) empleados**: Ingreso de nombre, apellido y edad. Se genera automáticamente un ID.
 - **Modificar empleados**: Búsqueda por ID, edición de los campos, y guardado de los cambios.
@@ -17,7 +17,7 @@ Este proyecto es una **aplicación de escritorio para la gestión de empleados**
 
 ---
 
-## 🧠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python 3**
 - **Tkinter**: Biblioteca para crear interfaces gráficas de usuario (GUI).
@@ -27,7 +27,7 @@ Este proyecto es una **aplicación de escritorio para la gestión de empleados**
 
 ---
 
-## 🗃️ Estructura de la Base de Datos
+## Estructura de la Base de Datos
 
 La base de datos `Bd_Empleados.db` contiene una única tabla llamada `empleados` con la siguiente estructura:
 
@@ -38,3 +38,4 @@ CREATE TABLE empleados(
     apellido TEXT NOT NULL,
     edad INTEGER NOT NULL
 )
+```
